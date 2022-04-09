@@ -6,6 +6,8 @@ const path = require('path');
 
 app.use(logger("dev"));
 app.use(express.static(path.join(__dirname, 'static')));
+app.use(express.json());
+require("dotenv").config();
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
