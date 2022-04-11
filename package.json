@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "nodemon app.js",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "npm run lint:js"
@@ -18,9 +18,11 @@
     "express": "^4.17.3",
     "http-errors": "^2.0.0",
     "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
     "nuxt": "^2.15.7",
     "path": "^0.12.7",
+    "sequelize": "^6.18.0",
     "vuetify": "^2.5.5"
   },
   "devDependencies": {
