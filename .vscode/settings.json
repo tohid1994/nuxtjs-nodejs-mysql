@@ -12,10 +12,10 @@
         "server": "localhost",
         "port": 3306,
         "driver": "MySQL",
-        "name": "test",
-        "database": "test",
+        "name": "testConect",
+        "database": "nodejs",
         "username": "root",
-        "password": "MArco943307474??"
+        "password": "MArco943307474*"
       }
     ]
   }
