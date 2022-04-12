@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const logger = require("morgan");
 const path = require('path');
-const db = require('./configs/db')
+const db = require('./app/configs/db')
 
 
 app.use(logger("dev"));
