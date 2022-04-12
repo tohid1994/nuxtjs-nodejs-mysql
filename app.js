@@ -3,8 +3,11 @@ const express = require("express");
 const app = express();
 const logger = require("morgan");
 const path = require('path');
+<<<<<<< HEAD
 const db = require('./app/configs/db')
 
+=======
+>>>>>>> parent of 885bc88... create mysql conection
 
 app.use(logger("dev"));
 app.use(express.static(path.join(__dirname, 'static')));
